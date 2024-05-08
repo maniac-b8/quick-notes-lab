@@ -1,5 +1,4 @@
 import { getToken } from './users-service';
-
 const BASE_URL = '/api/notes'; 
 
 export async function getNotes() {

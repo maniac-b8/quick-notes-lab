@@ -39,6 +39,7 @@ export default function Notes() {
   return (
     <div>
       <div>
+        <p>Feel free to leave a note!</p>
         <textarea value={newNoteText} onChange={e => setNewNoteText(e.target.value)} />
         <button onClick={handleAddNote}>Add Note</button>
       </div>
